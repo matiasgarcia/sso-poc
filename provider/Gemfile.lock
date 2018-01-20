@@ -1,4 +1,10 @@
 GEM
+  remote: https://api.rubygems.org/
+  specs:
+    tzinfo-data (1.2017.3)
+      tzinfo (>= 1.0.0)
+
+GEM
   remote: https://rubygems.org/
   specs:
     actioncable (5.1.4)
@@ -185,6 +191,3 @@ DEPENDENCIES
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
-
-BUNDLED WITH
-   1.13.1
