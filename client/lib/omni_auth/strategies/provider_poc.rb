@@ -35,7 +35,7 @@ module OmniAuth
       end
 
       def raw_info
-        @raw_info ||= access_token.get('/me').parsed
+        @raw_info ||= access_token.get('/users/me.json').parsed
       end
 
       # Necessary to make Omniauth work. See https://stackoverflow.com/a/45818280
