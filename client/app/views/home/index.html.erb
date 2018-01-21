@@ -1,0 +1,6 @@
+<% if user_signed_in? %>
+    <p>Logged In</p>
+<% else %>
+    <p>Logged off</p>
+    <%= link_to "Sign in with Provider Poc", user_provider_poc_omniauth_authorize_path %>
+<% end %>
